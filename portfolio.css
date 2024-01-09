@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding:0; 
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+:root{
+    --color1: #BEADFA;
+    --color2: #0174BE;
+    --color3: #FFC436;
+    --color4: #FFF0CE;
+}
+
+.sidebar{
+    padding-top: 30px;
+    border-right: 10px solid var(--color4);
+    width: 20%;
+    left: 0; 
+    text-align: center;
+    height: 100%;
+      position:fixed;
+  color: var(--color4);
+    background:linear-gradient(black,var(--color1))  ; 
+}
+a{
+    color: var(--color4);
+    font-size: xx-large;
+    line-height: 100px;
+    text-decoration: none;
+}
+a:hover{
+    filter: drop-shadow(2px 2px 4px skyblue);
+}
+
+.page{
+    text-align: center;
+    margin-left: 312px;
+    position: absolute;
+    height: 81%;
+    width: 1207px;
+    color: var(--color4);
+    background-color: var(--color1); 
+    border-bottom: 3px solid var(--color4); 
+    
+}
+
+
+.intro{
+    margin-top: 90px;
+    margin-left:70px;
+    text-align:left;
+    line-height: 25px;
+ 
+      
+}
+.img{
+    margin-left: 1000px;
+    z-index: 1;
+}
+img{
+    height:580px ;
+    width:340px ;
+}
+img:hover{
+    filter: drop-shadow(8px 8px 10px gray);
+}
+
+.container2{
+    padding-top: 100px;
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    color: var(--color2);
+    border-bottom: 3px solid var(--color4);
+    
+
+}
+li{
+    list-style-type: disc;
+}
+.img1{
+    margin-left: 400px;
+    margin-top: -40px;
+}
+#img1{
+    height: 400px;
+    width: 280px;
+    border: 1px solid rgba(255, 255, 255, 0.418);
+    box-shadow: 5px 5px 10px #acff2fb4;
+    border-radius: 50%;
+    position: absolute;
+}
+#img1:hover{
+    filter: drop-shadow(8px 8px 10px gray);
+
+}
+.about{
+    
+    color: var(--color4);
+    text-align: left;
+    margin-left: 800px;
+    margin-top: 50px;
+    padding: 20px;
+    width: 40%;
+    height: 60%;
+    line-height: 30px;
+    
+}
+.about p{
+    font-size: large;
+}
+.btn{
+    width: 25%;
+    height: 35px;
+    border-radius: 20px;
+    border: transparent;
+    background-color: var(--color3);
+    box-shadow: 2px 2px 4px #acff2fa5;
+    font-size: large;
+    margin-top: 40px;
+}
+.btn:hover{
+    filter: drop-shadow(8px 8px 10px gray);
+}
+.services{
+    background-color: var(--color1);
+    color: var(--color4);
+    font-size: x-large;
+    height: 600px;
+    margin-left: 300px;
+    border-bottom: 3px solid var(--color4);
+    
+}
+.services h1{
+    padding: 50px;
+    margin-left: 400px;
+}
+/* font{
+    color: black ;
+    
+    text-shadow: 5px 5px 10px #adff2f ;
+} */
+.bigdiv{
+    box-sizing: border-box;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.div1{
+    height: 290px;
+    width: 290px;
+    margin: 10px;
+    
+    background-color: var(--color4);
+    border-radius: 30px;
+    display: inline-block;
+    box-shadow: 2px 2px 4px #9ec8b990;
+    
+}
+.div1 p{
+    color: black;
+}
+.logo{
+    margin-left: 120px;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+.head{
+    color: black;
+    font-size: medium;
+    padding: 15px;
+}
+.p{
+    margin-top: 25px;
+     text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
+.divbtn{
+    margin-left: 90px;
+    margin-top: 20px;
+    
+}
+.btn2{
+    width: 50%;
+    height: 30px;
+    background-color: black;
+    color: var(--color4);
+    border: transparent;
+    border-radius: 20px;
+}
+
+footer{
+    margin-left: 300px;
+    padding-left: 100px;
+    height: 500px;
+    width: 70rem;
+    background-color:black; 
+}
+footer h1{
+    margin-left: 15rem;
+    padding-top: 3rem;
+    color: var(--color4);
+}
+input{
+    width: 50%;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    
+    border: transparent;
+    border-radius: 80px;
+}
+#sendbtn{
+    width: 10%;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: var(--color4);
+    border: transparent;
+    border-radius: 20px;
+    
+}
+#sendbtn:hover{
+    background-color:black;
+    color: var(--color4);
+}
+.addr {
+    border-radius: 5px 80px 5px 80px;
+   text-align: center;
+   margin-left: 40rem;
+   padding: 20px;
+   background-color: var(--color4);
+   height: 9rem;
+   margin-top: -100px;
+   width: 25rem;
+}
+
+font{
+    color:blue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.641);
+}
+.addr img{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+.footerimg{
+    margin-top: 20px;
+    
+}
+@media screen and (max-width:1000px){
+
+  .sidebar{
+    position: fixed;
+    width: 15%;
+
+  }
+  .sidebar h1{
+    position: relative;
+    font-size: 100%;
+  }
+
+  .sidebar a {
+    font-size: 100%;
+    position: relative;
+  } 
+  .page{
+    position: relative;
+    width: 84.6%;
+    left: -15.2%;
+    
+  }
+  .page h2,.page h1,.page p{
+    position: relative;
+    font-size: 80%;
+    
+  }
+  .intro{
+    position: relative;
+    width: 100%;
+  }
+  .btn{
+    font-size: small;
+  }
+   .img{
+    position: relative;
+         margin-top: 100px;
+        margin-left: -400px;
+        z-index: 1;
+    }
+    img{
+        height: 255px;
+        width: 200px;
+    }
+      #img1{
+        width: 200px;
+        height: 300px;
+    }
+    .img1{
+       position: relative;
+       left: -20%;
+    }
+    .container2{
+        
+        left: -13.8%;
+        width: 100.4%;
+        height: 50%;
+    }
+    .about{
+        position: relative;
+        left: -35%;
+        margin-top: -7%;
+    }
+    .about .h,.about h2,.about p,.about h4,.about .btn{
+        font-size: 80%;
+       
+    }
+    .services{
+        position: relative;
+        font-size: 100%;
+        height: 100%;
+        width: 84%;
+        left: -13%;
+        
+    }
+    .services h1{
+        position: relative;
+        left: -24%;
+        font-size: 140%;
+    }
+    .bigdiv{
+        position: relative;
+        display: flex;
+    }
+    .div1{
+        height: 10%;
+        position: relative;
+        overflow: hidden;
+        left: -10%;
+        margin-top: -10%;
+    }
+    footer{
+        position: relative;
+        width: 72%;
+        left: -12.9%;
+        
+    }
+    .addr{
+        position: relative;
+        margin-top: 2%;
+        left: -50%;
+        height: 23%;
+        width: 25%;
+    }
+    .addr h3,.addr p,.addr img{
+        font-size: 60%;
+    }
+    #fname{
+        width: 40%;
+    }
+    .div1 head,.div1 h2,.div1 p,.div1 .logo,div1 .btn2{
+        font-size: 50%;
+    }
+    
+  
+
+   
+}@media screen and (max-width:768px){
+
+    .sidebar{
+      position: fixed;
+      width: 15%;
+  
+    }
+    .sidebar h1{
+      position: relative;
+      font-size: 100%;
+    }
+  
+    .sidebar a {
+      font-size: 100%;
+      position: relative;
+    } 
+    .page{
+      position: relative;
+      width: 81.6%;
+      left: -22.2%;
+      
+    }
+    .page h2,.page h1,.page p{
+      position: relative;
+      font-size: 70%;
+      
+    }
+    .intro{
+      position: relative;
+      width: 100%;
+    }
+    .btn{
+      font-size: 20%;
+    }
+     .img{
+      position: relative;
+           margin-top: 100px;
+          margin-left: -380px;
+          z-index: 1;
+      }
+      img{
+          height: 200px;
+          width: 150px;
+      }
+        #img1{
+          width: 200px;
+          height: 300px;
+      }
+      .img1{
+         position: relative;
+         left: -30%;
+      }
+      .container2{
+          
+          left: -13.8%;
+          width: 100.4%;
+          height: 50%;
+      }
+      .about{
+          position: relative;
+          left: -50%;
+          margin-top: -7%;
+      }
+      .about .h,.about h2,.about p,.about h4,.about .btn{
+          font-size: 80%;
+         
+      }
+      .services{
+          position: relative;
+          font-size: 100%;
+          height: 100%;
+          width: 83%;
+          left: -21%;
+          
+      }
+      .services h1{
+          position: relative;
+          left: -24%;
+          font-size: 140%;
+      }
+      .bigdiv{
+          position: relative;
+          display: flex;
+      }
+      .div1{
+          height: 10%;
+          position: relative;
+          overflow: hidden;
+          left: -10%;
+          margin-top: -10%;
+      }
+      footer{
+          position: relative;
+          width: 70%;
+          left: -21%;
+          
+      }
+      .addr{
+          position: relative;
+          margin-top: 2%;
+          left: -68%;
+          height: 23%;
+          width: 37%;
+      }
+      .addr h3,.addr p,.addr img{
+          font-size: 50%;
+      }
+      #fname{
+          width: 40%;
+      }
+      .div1 head,.div1 h2,.div1 p,.div1 .logo,div1 .btn2{
+          font-size: 50%;
+      }
+      #sendbtn{
+        font-size: 30%;
+        background-color: #0174BE;
+      }
+      
+    
+  
+     
+  }
